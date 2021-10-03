@@ -3,7 +3,7 @@ import traceback
 from flask import Flask, request, jsonify
 from flask.templating import render_template
 
-from torch_utils import transform_image, get_prediction
+from app.torch_utils import transform_image, get_prediction
 
 
 app = Flask(__name__)
